@@ -2373,7 +2373,7 @@ set(0, 'defaulttextinterpreter', 'tex')
 set(0, 'defaultlegendinterpreter', 'tex')
 set(0, 'defaultaxesfontsize', 7)
 
-% First try fitting to Jason's 0 T data
+% First try fitting to 0 T data
 mass = 2.34; % Sample mass in mg
 molarMass = 599.46; % Sample grams per mole
 
@@ -2860,7 +2860,7 @@ hold off
 clear
 close all
 
-% First try fitting to Jason's 0 T data
+% First try fitting to 0 T data
 massL = 2.34; % Sample mass in mg
 molarMass = 599.46; % Sample grams per mole
 
