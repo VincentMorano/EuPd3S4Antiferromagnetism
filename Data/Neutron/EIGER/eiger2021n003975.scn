@@ -1,0 +1,68 @@
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+    3975       1       0
+ILL TAS data in the new ASCII format follow after the line VV...V
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      42       0
+EIGER     Morano/Broholm16-Sep-2021 17:36:27
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+INSTR: EIGER
+EXPNO: 20211112
+USER_: Morano/Broholm
+LOCAL: fennell
+FILE_: 3975
+DATE_: 16-Sep-2021 17:36:27
+TITLE: alignment check
+COMND: sc sgu 0 dsgu 0.5 np 17 mn 8000
+POSQE: QH=  0.0000, QK=  0.0000, QL=  3.9994, EN=  0.0066, UN=MEV
+STEPS: DSGU=  0.5000, 
+PARAM: DM=  3.3540, DA=  3.3540, SM= 1, SS=-1, SA= 1
+PARAM: FX=  1, KFIX=  4.0507
+PARAM: ALF1=  0.0000, ALF2=  0.0000, ALF3=  0.0000, ALF4=  0.0000
+PARAM: BET1=  0.0000, BET2=  0.0000, BET3=  0.0000, BET4=  0.0000
+PARAM: ETAM=  0.0000, ETAA=  0.0000
+PARAM: AS=  6.6765, BS=  6.6765, CS=  6.6765
+PARAM: AA= 90.0000, BB= 90.0000, CC= 90.0000
+PARAM: UB11= -0.0053, UB12= -0.0053, UB13=  0.1496
+PARAM: UB21= -0.1058, UB22= -0.1058, UB23= -0.0075
+PARAM: UB31=  0.1059, UB32= -0.1059, UB33=  0.0000
+PARAM: PN1=  0.0000, PN2=  0.0000, PN3=  1.0000
+PARAM: AX=  0.0000, AY=  0.0000, AZ=  4.0000
+PARAM: BX=  4.0000, BY=  4.0000, BZ=  0.0000
+VARIA: MCH     =122.0220, MCV     =  4.4177, A1      = 13.3695, 
+VARIA: MT      = 10.6650, MG      = -0.0698, A2ROT   = 26.7373, 
+VARIA: D1L     =-67.9999, D1R     =-67.9999, D2L     =-68.7570, 
+VARIA: D2R     =-24.2431, VSL     = -0.2000, VSR     = -0.2000, 
+VARIA: MSL     =  7.0005, MSR     =  7.0005, A4      =-55.3650, 
+VARIA: A3      =-24.8300, SGL     =  0.0000, SGU     = -3.9999, 
+VARIA: A6      = 26.7400, A5      = 13.3699, ATL     = -0.4980, 
+VARIA: ATU     =  1.6016, AG      =  0.0000, ACH     =  1.1326, 
+VARIA: MST     = 20.0005, MSB     = 20.0005, 
+ZEROS: MCH     = -0.0000, MCV     = -0.0000, A1      =  0.7610, 
+ZEROS: MT      = -0.0000, MG      = -0.0000, A2ROT   =  0.0395, 
+ZEROS: D1L     = -0.0000, D1R     = -0.0000, D2L     =  1.9000, 
+ZEROS: D2R     = -1.9000, VSL     = -0.0000, VSR     = -0.0000, 
+ZEROS: MSL     = -0.0000, MSR     = -0.0000, A4      = -0.1600, 
+ZEROS: A3      = -0.0000, SGL     = -0.0000, SGU     = -0.0000, 
+ZEROS: A6      = -0.0850, A5      = 90.2536, ATL     = -0.0000, 
+ZEROS: ATU     = -0.0000, AG      = -0.0000, ACH     = -0.0000, 
+ZEROS: MST     = -0.0000, MSB     = -0.0000, 
+PARAM: MN=8000.000000
+PARAM: TT=  0.0000, RT=  0.0000
+FORMT: (I4,1X,F9.4,1X,F8.0,1X,F8.0,1X,F9.2,1X,F8.0,1X,F8.0,1X,F9.4,1X,F9.4,1X,F9.4,1X,F9.4)
+DATA_:
+ PNT     SGU         M1       M2      TIME     CNTS       M3     A2        A3        A4        TT    
+   1   -3.9999     8000     2194      9.23       57        0   26.7373  -24.8300  -55.3650    0.0000 
+   2   -3.5001     8000     2207      9.20       80        4   26.7373  -24.8300  -55.3650    0.0000 
+   3   -3.0001     8000     2147      9.15      105        0   26.7373  -24.8300  -55.3650    0.0000 
+   4   -2.5001     8000     2225      9.24      138        0   26.7373  -24.8300  -55.3650    0.0000 
+   5   -2.0001     8000     2071      9.13      151        4   26.7373  -24.8300  -55.3650    0.0000 
+   6   -1.5001     8000     2247      9.37      137        1   26.7373  -24.8300  -55.3650    0.0000 
+   7   -1.0000     8000     2155      9.28      151        1   26.7373  -24.8300  -55.3650    0.0000 
+   8   -0.5000     8000     2212      9.17      152        0   26.7373  -24.8300  -55.3650    0.0000 
+   9    0.0000     8000     2244      9.24      142        4   26.7373  -24.8300  -55.3650    0.0000 
+  10    0.5000     8000     2195      9.22      104        0   26.7373  -24.8300  -55.3650    0.0000 
+  11    1.0000     8000     2212      9.42      105        7   26.7373  -24.8300  -55.3650    0.0000 
+  12    1.5001     8000     2272      9.39       81        4   26.7373  -24.8300  -55.3650    0.0000 
+  13    2.0001     8000     2199      9.15       46        0   26.7373  -24.8300  -55.3650    0.0000 
+  14    2.5001     8000     2140      9.24       61        0   26.7373  -24.8300  -55.3650    0.0000 
+  15    2.9999     8000     2287      9.29       45        4   26.7373  -24.8300  -55.3650    0.0000 
